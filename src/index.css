@@ -1,0 +1,218 @@
+.nav {
+    background-color: grey;
+    align-items: justify;
+    color: white;
+    justify-content: space-between;
+
+
+}
+
+.logo {
+    margin: 5px;
+    font: bold;
+    font-size: large;
+}
+
+.list {
+    margin: 5px;
+    display: flex;
+    list-style-type: none;
+    gap: 8px;
+    cursor: pointer;
+    transition: all;
+}
+
+.box1 {
+    gap: 4px;
+    background-color: rgb(211, 211, 211);
+
+    min-height: 100vh;
+
+    align-items: justify;
+
+}
+
+.btn2 {
+    background-color: rgb(120, 120, 120);
+    color: black;
+    border: 2px solid black;
+    margin: 20px 0px 10px 16px !important;
+}
+
+.heading {
+    padding: 8px;
+    margin: 3px;
+}
+
+.form-popup {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+}
+
+
+.form-container {
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 16px;
+}
+
+.form {
+    height: 90%;
+    width: 100%;
+
+    display: inline-grid;
+    border-radius: 4px;
+
+    gap: 2px;
+
+
+}
+
+.title {
+
+    margin-bottom: 12px;
+
+
+}
+
+.description {
+    margin-bottom: 12px;
+    height: 135px;
+
+
+}
+
+.date {
+    margin-bottom: 12px;
+}
+
+
+.btn1 {
+
+    background-color: rgb(120, 120, 120);
+    color: black;
+    border: 2px solid black;
+
+    width: 100%;
+    border-radius: 5px !important;
+    padding: 8px 0;
+
+}
+
+button {
+
+    background-color: #e8e4e4;
+    ;
+    color: black;
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 5px !important;
+    margin: 4px !important;
+    width: 100px;
+}
+
+.grid {
+    display: flex;
+    /* height: 90vh ; */
+}
+
+.container1 {
+    padding: 24px;
+    min-height: calc(100vh - 250px);
+    background-color: rgb(240, 240, 240);
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 40px;
+    border-radius: 7px;
+}
+
+
+
+/*.todos{
+    dis
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    margin-left: 45px;
+    border-radius: 2px;
+}*/
+
+.todos {
+    flex-wrap: wrap;
+    gap: 8px;
+    display: flex;
+}
+
+.todolist {
+    box-sizing: border-box;
+    width: calc(25% - 6px);
+
+    padding: 8px;
+    background-color: aliceblue;
+    border: 1px solid darkcyan;
+    border-radius: 8px;
+
+}
+
+.task-completed {
+    background-color: lightgray;
+    border: 1px solid lightsalmon;
+}
+
+.checkbox {
+    display: flex;
+    vertical-align: middle;
+    margin: 3px !important;
+    gap: 8px;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.closebtn {
+    color: rgb(96, 94, 94);
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.task-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.task-description {
+    padding: 16px 0;
+}
+
+
+@media only screen and (max-width:480px) {
+    .container1 {
+        margin: 0;
+    }
+
+    .todolist {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .todos {
+        gap: 24px;
+    }
+}
