@@ -15,10 +15,7 @@ function App() {
 
   const [dueDate, setDueDate] = useState("")
 
-  const [todos, setTodos] = useState([{ title: "title1", description: "des1", date: '06/01/2025, 20:41:16' },
-  { title: "title1", description: "des1", date: '06/01/2025, 20:41:16' }
-    , { title: "title1", description: "des1", date: '06/01/2025, 20:41:16' },
-  { title: "title1", description: "des1", date: '06/01/2025, 20:41:16' }])
+  const [todos, setTodos] = useState([])
 
   const [showForm, setShowForm] = useState(false)
 
